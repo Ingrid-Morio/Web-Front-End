@@ -7,25 +7,3 @@ color:red;
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>
-Bem vindos!
-</title>
-<link href="estilo.css" rel="stylesheet"/>
-
-<style>
-
-p{
-color: red;
-}
-
-</style>
-</head>
-<body>
-
-<p style="color:green;">Aprendendo a desenvolver em HTML.</p>
-
-</body>
-</html>
