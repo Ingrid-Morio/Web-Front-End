@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<link href="novoestilo.css" rel="stylesheet"/>
+<style>
+#Telefone,#E-mail,#Sexo {
+color: green;
+}
+
+</style>
+</head>
+<p>Formulario</p>
+
+<form action="/action_page.php">
+<p>Nome:</p><br>
+<input type="text" name="Nome">
+<br>
+</form>
+
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Senha:</p><br>
+<input type="password" name="psw">
+</form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+<p id="Telefone">Telefone:</p><br>
+<input type="tel" name="phone" pattern="[0-9]{5}-[0-9]{4}" required>
+<span>Exemplo: 12345-6789</span>
+
+</form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+
+<p id="E-mail">E-mail:</p><br>
+  <input type="email" name="email">
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="Sexo">Sexo:</p><br>
+
+<form function="/action_page.php">
+  <input type="radio" name="gender" value="male" checked> Masculino<br>
+  <input type="radio" name="gender" value="female"> Feminino<br>
+  <input type="radio" name="gender" value="other"> Outros<br><br>
+  
+</form> 
+</style>
+</body>
+</html>
+
+  <!DOCTYPE html>
+  <html>
+  <body>
+
+<p style="color:yellow">Idade:</p>
+
+  <form action="/action_page.php">
+   <input type="number">
+  </form>
+
+ 
+  </body>
+  </html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p style="color:yellow">Curso:</p>
+
+<form action="/action_page.php">
+<input type="checkbox" name="vehicle1" value="Bike">Sistemas
+<br>
+<input type="checkbox" name="vehicle2" value="Car">Redes 
+<br>
+<input type="checkbox" name="vehicle2" value="Car">Engenharia
+<br>
+
+</form> 
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p style="color:yellow">Você gosta da sua turma</p>
+
+<form action="/action_page.php" method="get">
+  Ponto:
+  <input type="range" name="points" min="0" max="10"><br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
+
+
